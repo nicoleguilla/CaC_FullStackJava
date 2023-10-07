@@ -1,0 +1,213 @@
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    max-width: 180px;
+    height: 85px;
+}
+
+.company-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu li {
+    min-width: 84px;
+    font-size: 0.8rem;
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.menu .btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#conferencia.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.bg-image h2 {
+    font-size: 3rem;
+}
+
+.bg-image p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.bg-image .buttons {
+    margin-top: 20px;
+}
+
+#conferencia .bg-image .btn {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.bg-image .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-white h2 {
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+.bg-white h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tags {
+    margin-bottom: 10px;
+}
+
+.bg-dark img .logo {
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+}
+
+.bg-dark h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.bg-dark p {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.bg-dark .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-white h2.text-uppercase {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: lowercase;
+}
+
+.bg-white h3.text-uppercase {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bg-white p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    padding: 20px 0;
+}
+
+.footer .row div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.menu a.btn {
+    font-size: 0.8rem;
+    color: green;
+}
+
+.menu li a {
+    display: flex;
+    flex-direction: row;
+}
+
+section#conviertete-en-orador {
+    padding: 20px;
+}
+
+#conviertete-en-orador .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conviertete-en-orador form {
+    width: 60vw;
+}
+
+#conviertete-en-orador button.btn.btn-success {
+    width: 100%;
+}
+
+#lugar-fecha .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#conferencia .container.text-light {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 80px;
+}
+
+section#oradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lugar-fecha .container {
+    width: 100vw;
+    padding: 0;
+}
+
+#lugar-fecha img {
+    width: 100%;
+}
